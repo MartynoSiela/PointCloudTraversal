@@ -14,6 +14,7 @@ The application works fine with 1% of the total points (around 200.000 points) b
 Despite the current solution not being able to render all the points, it uses all the points when calculating Octree structure.
 ## Usage
 As this project is created using WPF that means that it is a Windows application which needs Windows operating system to run. You can download the build exe file from [here](Build/PointCloudTraversal.exe) or build it yourself using Visual Studio or other ways. Below you can find a screenshot of the application and explanation of how to use it:
+
 ![Initial Screen](Screenshots/InitialScreen.png)
 As you can see from the screenshot all the buttons are disabled when the program is loaded. Now let's look at the steps of how this program should be used:
 
@@ -29,6 +30,7 @@ It is possible to change how many points are being rendered but be warned provid
 It is also possible to change the octree depth. At depth of 6 the program is still quite responsive as well as at depth of 7 but the higher the depth the longer the calculations will take and the application might also crash if it runs out of memory.
 
 If all the steps are done successfully a path from point A to point B should be displayed as octree nodes:
+
 ![Path Screen](Screenshots/PathScreen.png)
 
 It is possible to move the camera around the point cloud (zoom, pan, tilt).
